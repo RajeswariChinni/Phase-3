@@ -8,7 +8,7 @@ def BFS(key,graph):
                             res.append(i)
                             visited.append(i) 
             return visited 
-def DFS(start,graph,visited=None):
+def DFS(start,graph,visited=None):    
     if visited==None:
         visited=[]
     visited.append(start)
